@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CIBIL-WEBSITE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>CIBIL-WEBSITE</header>
+    <form id="form">
+        <div id="name">
+            <label for="income">Annual Income:</label>
+            <input type="number" name="income" id="income" placeholder="Enter your annual income">
+        </div>
+        <div id="loan-input">
+            <label for="loan">Total Annual Loan Amount:</label>
+            <input type="number" name="loan" id="loan" placeholder="Enter your annual loan amount">
+        </div>
+        <div id="n-loans-input">
+            <label for="n-loans">No. Of Loans:</label>
+            <input type="number" name="n-loans" id="n-loans" placeholder="Enter total number of loans">
+        </div>
+        <div id="f-loans-input">
+            <label for="f-loans">Failed Loans:</label>
+            <input type="number" name="f-loans" id="f-loans" placeholder="Enter your failed number of loans">
+        </div>
+        
+        <button type="submit">Submit</button>
+        <div id="error-message" style="color: red;"></div>
+    </form>
+    <div id="result">Waiting for input...</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
